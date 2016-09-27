@@ -1,7 +1,7 @@
 # CV
 My Curriculum Vitae (CV)
 
-A copy of the pdf can be found here or on my website: aaronta.github.io/cv
+A copy of the pdf can be found here or on my website: [aaronta.github.io/cv](aaronta.github.io/cv)
 
 # Compile Tex Doc:
 
