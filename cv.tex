@@ -1,0 +1,170 @@
+\documentclass[11pt,letter,sans]{moderncv}
+
+\usepackage{AaronTAnderson}
+
+\usepackage[english]{babel}
+\linespread{0.9}
+% for some reason, lines take up a lot of space in itemize in English...
+\newenvironment{tightitemize}
+   {\begin{itemize}
+   \setlength{\parskip}{0pt}}
+   {\end{itemize}}
+
+% personal data
+%\title{}
+\extrainfo{%
+\linkedin~\httplink{www.linkedin.com/in/aarontanderson}%\\%
+%\octocat~\httplink{www.github.com/aaronta}\\%
+} % optional, remove the line if not wanted
+
+\usepackage{multibib}
+\newcites{journal,conference,seminar}{{Journal Publications},{Conference Abstracts},{Invited Seminar}}
+
+\begin{document}
+\setmainfont{Minion Pro}
+\setsansfont{Myriad Pro}
+
+\hyphenpenalty=10000
+\maketitle
+
+\section{Research Interests}
+
+Development of tools and techniques for MR Elastography as a biomarker for detection and staging of human diseases.
+Incorporate computational algorithms and frameworks, on high performance computational systems, for advanced physical models in MRE.
+
+\section{Education}
+
+\cventry{Spring 2017 (expected)}{PhD Theoretical \& Applied Mechanics}{University of Illinois at Urbana-Champaign}{}{}{}
+
+\cventry{May 2013}{MS Theoretical \& Applied Mechanics}{University of Illinois at Urbana-Champaign}{}{}{GPA: 3.43/4.0}
+
+\cventry{2010}{BS Mechanical Engineering}{University of Wisconsin-Madison}{}{}{GPA: 3.79/4.0}
+
+\cventry{2010}{BA Physics}{University of Wisconsin-Eau Claire}{}{}{GPA: 3.88/4.0, Math minor}
+
+\section{Experience}
+
+\subsection{Research Experience}
+
+\cventry{2013--}{Graduate Research Assistant}{Mechanical Science \& Engineering}{UIUC}{}%
+  {\textit{Advisor:} Dr.\ John Georgiadis
+  \begin{itemize}
+	\item Develop a transversely-isotropic, non-linear, finite-element inversion to recover anisotropic mechanical properties of white matter in the human brain
+  	\item Use magnetic resonance elastography (MRE) to obtain mechanical properties of aging human brains towards characterizing age-related changes
+  \end{itemize}
+  }
+
+\cventry{2010--2013}{Graduate Research Assistant}{Mechanical Science \& Engineering}{UIUC}{}%
+  {\textit{Advisor:} Dr.\ Jonathan Freund
+  \begin{itemize}
+  	\item Conduct computational investigation of jet crackle (aeroacoustic noise) using advanced numerical methods in a massively parallel environment to understand the mechanisms of the noise
+	\item Write post-processing routines for analysis of simulations to extract a comprehensive physical understanding of the phenomenon under study
+  \end{itemize}
+  }
+
+\cventry{2008--2010}{Undergraduate Research Assistant}{Engine Research Center}{UW-Madison}{}%
+  {\textit{Advisor:} Dr.\ Scott Sanders
+  \begin{itemize}
+  	\item Conducted experiments using Fourier Domain Mode-Lock laser for water absorption spectroscopy-based thermometry in combustion environments
+	\item Used the LabVIEW programming environment to create programs for data acquisition, post-processing of experimental data, and water spectroscopy simulations
+  \end{itemize}
+  }
+
+\cventry{2006--2007}{Undergraduate Research Assistant}{Materials Science Center}{UW-Eau Claire}{}%
+  {\textit{Advisors:} Dr.\ Doug Dunham \& Dr. Matt Evans
+  \begin{itemize}
+  	\item Gathered data with X-Ray Photoelectron Spectroscopy (XPS) on Manganese bonding with Silicon and chemical properties of Copper-Silver alloy
+	\item Operated Scanning Electron Microscope (SEM); collecting physical and chemical properties of a computer component for a local company
+  \end{itemize}
+  }
+
+\pagebreak
+
+\subsection{Teaching Experience}
+
+\cventry{2013}{Graduate Teaching Assistant}{Mechanical Science \& Engineering}{UIUC}{}%
+  {\textit{Supervisors:} Dr.\ Matthew West \& Dr.\ Elif Ertikin
+  \begin{itemize}
+	\item TAM 212 - Introductory Dynamics: Spring - TA, Summer - instructor, Fall - TA
+  	\item Lead small groups of undergraduate students in weekly analysis of dynamics of real-world problems in order to develop team-based problem solving skills
+	\item  Create and update individual assignments which expand on the group assignment towards a broader understanding of the physical phenomenon with an emphasis on technical communication
+  \end{itemize}
+  }
+
+\subsection{Industry Experience}
+
+\cventry{Jan--May 2009}{Fielded Engine Performance Co-op}{General Electric-Aviation}{Evandale, OH}{}%
+  {\textit{Supervisor:} Ed Yanosik
+  \begin{itemize}
+  	\item Developed a program for running a statistical process within Microsoft Access to analyze deterioration of aero-propulsion turbine engines
+	\item Created a database querying tool to evaluate performance differences between test cells and on-wing levels
+  \end{itemize}
+  }
+
+\cventry{May--Aug 2008}{Data Acquisition Intern}{Turbine Technologies LTD.}{Chetek, WI}{}%
+  {\textit{Supervisor:} Mike Kutrieb
+  \begin{itemize}
+  	\item Programmed operator's panel and data acquisition system using LabVIEW and National Instruments hardware for development of turbo shaft engine
+	\item Developed electronics support for turbo shaft engine including: servo based fly-by-wire controls, fuel-flow, RPM pick-ups, torque strain gauge, pressure transducers
+  \end{itemize}
+  }
+
+\section{Skills}
+
+\subsection{Software}
+
+\cvcomputer{Languages}{Python, FORTRAN 90/95, BASH, Matlab, LabVIEW}
+           {Web}{Jekyll, Markdown, HTML}
+\cvcomputer{Publication}{\LaTeX, Beamer, MS Office}
+           {Other Tools}{git, GitHub, Make, SQL}
+
+\subsection{Workshops}
+
+\cventry{(Dec 2016)}{Software Carpentry Instructor Training}{National Center for Supercomputing Applications (NCSA)}{Urbana, IL}{}{}
+
+\cventry{Nov 2015}{Presenting Data and Information with Edward Tufte}{Indianapolis, IN}{}{}{}
+
+\cventry{Aug 2014}{LCI Workshop on high performance clustered computing}{National Center for Supercomputing Applications (NCSA)}{Urbana, IL}{}{}
+
+\cventry{June 2014}{Harness the Power of GPU’s: Introduction to GPGPU Programming}{Indiana University Pervasive Technology Institute}{\textit{in person at} NCSA, Urbana, IL}{}{}
+
+\cventry{April 2014}{XSEDE HPC Monthly Workshop: OpenACC}{Pittsburgh Supercomputing Center}{\textit{in person at} NCSA, Urbana, IL}{}{}
+
+\cventry{Feb 2014}{Scientific Python for Engineers}{Computational Science \& Engineering (UIUC)}{Urbana, IL}{}{}
+
+\section{Awards \& Honors}
+
+\cventry{2015}{2nd place Student Abstract Award}{MR Elastography - Student Group}{ISMRM}{}{}
+
+\cventry{2013}{James O.\ Smith Memorial Award}{Mechanical Science \& Engineering}{}{}{Outstanding Theoretical \& Applied Mechanics Teaching Assistant}
+
+\section{Professional Service}
+
+\cventry{2015--}{Chapter Founder, President}{The Hacker Within-Illinois}{Scientific Computing Group}{}{}
+
+\cventry{June 2016}{Graduate Camp Counselor}{GAMES/GBAM camp}{High school girls STEM camp}{}
+  {}
+
+\cventry{June 2015}{Graduate Camp Counselor}{GAMES/GBAM camp}{High school girls STEM camp}{}{}
+
+\section{Publications}
+
+\subsection{Journal Publications}
+
+\nocitejournal{*}
+\bibliographystylejournal{plainyrrev}
+\bibliographyjournal{publications}
+
+\subsection{Conference Abstracts}
+
+\nociteconference{*}
+\bibliographystyleconference{plainyrrev}
+\bibliographyconference{conferences}
+
+\subsection{Invited Seminar}
+
+\nociteseminar{*}
+\bibliographystyleseminar{plainyrrev}
+\bibliographyseminar{seminars}
+
+\end{document}
