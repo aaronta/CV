@@ -12,13 +12,19 @@ default: pdf
 ## 	bibtex $<
 ## 	xelatex -interaction=batchmode $<
 
+#pdf:
+#	xelatex -interaction=batchmode ${TARGET}
+#	bibtex journal.aux
+#	bibtex conference.aux
+#	bibtex seminar.aux
+#	xelatex -interaction=batchmode ${TARGET}
 pdf:
-	xelatex -interaction=batchmode ${TARGET}
+	pdflatex ${TARGET}
 	bibtex journal.aux
 	bibtex conference.aux
 	bibtex seminar.aux
-	xelatex -interaction=batchmode ${TARGET}
+	pdflatex ${TARGET}
 
 clean:
 	rm -f *.aux *.log *.out
-	rm -f *.pdf
+#	rm -f *.pdf
