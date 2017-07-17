@@ -1,11 +1,11 @@
 # CV
 My Curriculum Vitae (CV)
 
-A copy of the pdf can be found here or on my website: [aaronta.github.io/cv](aaronta.github.io/cv)
+A copy of the pdf can be found here or on my website: [www.aarontanderson.com/cv](www.aarontanderson.com/cv)
 
 # Compile Tex Doc:
 
-$ make
+$ make pdf
 
 ## Adapted from:
 Raphael Pinson's [CV](https://github.com/raphink/CV)
